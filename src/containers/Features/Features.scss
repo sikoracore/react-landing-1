@@ -1,0 +1,52 @@
+.features {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+
+	@media screen and (max-width: 990px) {
+		flex-direction: column;
+	}
+
+	&__heading {
+		margin-right: 5rem;
+		flex: 1;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-direction: column;
+		text-align: left;
+
+		@media screen and (max-width: 990px) {
+			margin: 0 0 2rem 0;
+		}
+		h1 {
+			font-family: var(--font-family);
+			font-size: 34px;
+			line-height: 45px;
+			font-weight: 800;
+
+			@media screen and (max-width: 550px) {
+				font-size: 28px;
+				line-height: 38px;
+			}
+		}
+
+		p {
+			margin-top: 2rem;
+			font-family: var(--font-family);
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 30px;
+			color: var(--color-subtext);
+		}
+	}
+
+	&__container {
+		flex: 1.5;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+	}
+}

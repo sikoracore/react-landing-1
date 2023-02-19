@@ -1,0 +1,22 @@
+@use 'sass:math';
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+// variables
+:root {
+	--font-family: 'Manrope', sans-serif;
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+	--gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+	--color-bg: #040c18;
+	--color-footer: #031b34;
+	--color-blog: #042c54;
+	--color-text: #81afdd;
+	--color-subtext: #ff8a71;
+
+	--pc: 1449.98 + px;
+	--tablet: 991.98 + px;
+	--mobile: 767.98 + px;
+	--mobileSmall: 479.98 + px;
+}
